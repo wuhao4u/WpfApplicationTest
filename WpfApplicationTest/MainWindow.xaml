@@ -3,14 +3,14 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        <Button Name="SendButton"
-                Content="Button"
+        <Button Name="btnLongOperation"
+                Content="Synch"
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center" 
                 Margin="10,10,0,0" 
                 Width="75"
                 Click="Button_Click"
-                IsEnabled="False"
+                IsEnabled="True"
                 Padding="10,10,10,10"/>
         <TextBox HorizontalAlignment="Left" 
                  Height="23" 
@@ -20,5 +20,12 @@
                  VerticalAlignment="Top"
                  Width="120"
                  TextChanged="TextBox_TextChanged"/>
+        <Label Name ="lblResult"
+               Content="Label"
+               HorizontalAlignment="Left"
+               Margin="187,83,0,0"
+               VerticalAlignment="Top" 
+               Height="33" Width="158"/>
+        <Button Name="btnAsync" Content="Async" HorizontalAlignment="Left" Margin="380,163,0,0" VerticalAlignment="Top" Width="75" Click="btnAsync_Click"/>
     </Grid>
 </Window>
