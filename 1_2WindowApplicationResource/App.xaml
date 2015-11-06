@@ -1,0 +1,9 @@
+﻿<Application x:Class="_1_2WindowApplicationResource.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib">
+    <Application.Resources>
+        <sys:String x:Key="ComboBoxTitle">Items:</sys:String>
+    </Application.Resources>
+</Application>
