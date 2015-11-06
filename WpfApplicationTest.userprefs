@@ -1,0 +1,27 @@
+﻿<Properties StartupItem="WpfApplicationTest/WpfApplicationTest.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WpfApplicationTest/MainWindow.xaml.cs">
+    <Files>
+      <File FileName="ConsoleApplication1/Program.cs" Line="10" Column="2" />
+      <File FileName="WpfApplicationTest/MainWindow.xaml.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="WpfApplicationTest" expanded="True">
+            <Node name="ConsoleApplication1" expanded="True" />
+            <Node name="WpfApplicationTest" expanded="True">
+              <Node name="MainWindow.xaml" expanded="True">
+                <Node name="MainWindow.xaml.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
