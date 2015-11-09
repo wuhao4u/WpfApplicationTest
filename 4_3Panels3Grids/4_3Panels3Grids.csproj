@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{49DE36D3-8C0E-425B-9F36-534B9EC45C7D}</ProjectGuid>
+    <ProjectGuid>{6580DFE4-FB7F-4AC6-9190-76921585790D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_3_1ToolTips</RootNamespace>
-    <AssemblyName>3_1ToolTips</AssemblyName>
+    <RootNamespace>_4_3Panels3Grids</RootNamespace>
+    <AssemblyName>4_3Panels3Grids</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,6 +53,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="GridContactForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="GridSplitter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -60,6 +68,12 @@
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="GridContactForm.xaml.cs">
+      <DependentUpon>GridContactForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="GridSplitter.xaml.cs">
+      <DependentUpon>GridSplitter.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -92,13 +106,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="th.jpg" />
-    <Resource Include="th1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="help.jpg" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="readme.txt" />
