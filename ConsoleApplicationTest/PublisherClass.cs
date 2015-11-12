@@ -9,6 +9,7 @@ namespace ConsoleApplicationTest
 {
     class PublisherClass
     {
+        // this is a delegate (EventHandler is a simplified delegate)
 //        public event EventHandler myEventHappened;
         public event EventHandler<CoolEventArgs> myEventHappened;
         
