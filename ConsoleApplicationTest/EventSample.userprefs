@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="EventSample.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PublisherClass.cs">
+    <Files>
+      <File FileName="PublisherClass.cs" Line="11" Column="6" />
+      <File FileName="Program.cs" Line="1" Column="1" />
+      <File FileName="SubscriberClass.cs" Line="1" Column="1" />
+      <File FileName="SubscriberClass2.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
