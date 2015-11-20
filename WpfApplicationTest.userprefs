@@ -1,4 +1,4 @@
-﻿<Properties StartupItem="WpfApplicationTest/WpfApplicationTest.csproj">
+﻿<Properties StartupItem="WpfApplicationTest/SyncAsyncSample.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="WpfApplicationTest/MainWindow.xaml.cs">
     <Files>
