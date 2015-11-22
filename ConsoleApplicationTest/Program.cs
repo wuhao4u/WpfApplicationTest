@@ -15,6 +15,7 @@ namespace ConsoleApplicationTest
             SubscriberClass mSub = new SubscriberClass();
             SubscriberClass2 mSub2 = new SubscriberClass2();
 
+			// publisher's event += pointer of subscribers function
             mPub.myEventHappened += mSub.OnEventHappened;
             mPub.myEventHappened += mSub2.OnEventHappened;
             mPub.DoWork();

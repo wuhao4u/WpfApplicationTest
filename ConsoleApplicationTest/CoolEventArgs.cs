@@ -9,5 +9,9 @@ namespace ConsoleApplicationTest
     class CoolEventArgs : EventArgs
     {
         public int WaitTime { get; set; }
+		public int MsgNum {
+			get;
+			set;
+		}
     }
 }
