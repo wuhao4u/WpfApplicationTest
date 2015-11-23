@@ -31,8 +31,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "5_1DataBinding1", "5_1DataB
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6_1Commands", "6_1Commands\6_1Commands.csproj", "{B5A26B38-862C-4141-B7D4-6FA6E281B701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E:\Github\BackgroundWorkerSample\BackgroundWorkerSample\BackgroundWorkerSample", "..\..\..\..\..\..\E:\Github\BackgroundWorkerSample\BackgroundWorkerSample\BackgroundWorkerSample.csproj", "{EAB746AC-58BA-4671-9B90-2CE955BE4FEE}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample", "GenericSample\GenericSample.csproj", "{38F0F94A-B288-49C8-9502-C8D80672A094}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_1RichTextControls", "9_1RichTextControls\9_1RichTextControls.csproj", "{BD440FA0-E742-486D-A599-63395C10A46E}"
@@ -99,10 +97,6 @@ Global
 		{B5A26B38-862C-4141-B7D4-6FA6E281B701}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5A26B38-862C-4141-B7D4-6FA6E281B701}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B5A26B38-862C-4141-B7D4-6FA6E281B701}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EAB746AC-58BA-4671-9B90-2CE955BE4FEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EAB746AC-58BA-4671-9B90-2CE955BE4FEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EAB746AC-58BA-4671-9B90-2CE955BE4FEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EAB746AC-58BA-4671-9B90-2CE955BE4FEE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{38F0F94A-B288-49C8-9502-C8D80672A094}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{38F0F94A-B288-49C8-9502-C8D80672A094}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38F0F94A-B288-49C8-9502-C8D80672A094}.Release|Any CPU.ActiveCfg = Release|Any CPU

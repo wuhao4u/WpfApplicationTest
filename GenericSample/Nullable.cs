@@ -20,8 +20,8 @@ namespace GenericSample
 
 		public T GetValueOrDefault()
 		{
-			if (HasValue)
-				return (T)_value;
+            //if (HasValue)
+            //    return (T)_value;
 
 			return default(T);
 		}
