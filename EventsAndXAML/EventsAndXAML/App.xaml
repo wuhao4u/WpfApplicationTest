@@ -1,7 +1,7 @@
-﻿<Application x:Class="_5_1DataBinding1.App"
+﻿<Application x:Class="EventsAndXAML.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="ChangeNotificationSample.xaml">
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>
