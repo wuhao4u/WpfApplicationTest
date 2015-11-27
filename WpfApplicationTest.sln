@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSample", "GenericSam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_1RichTextControls", "9_1RichTextControls\9_1RichTextControls.csproj", "{BD440FA0-E742-486D-A599-63395C10A46E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7_1Dialogs", "7_1Dialogs\7_1Dialogs.csproj", "{C3F8E54F-6F9C-4100-87FC-C6DBD9AE139D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{BD440FA0-E742-486D-A599-63395C10A46E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD440FA0-E742-486D-A599-63395C10A46E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD440FA0-E742-486D-A599-63395C10A46E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F8E54F-6F9C-4100-87FC-C6DBD9AE139D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F8E54F-6F9C-4100-87FC-C6DBD9AE139D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F8E54F-6F9C-4100-87FC-C6DBD9AE139D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F8E54F-6F9C-4100-87FC-C6DBD9AE139D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
