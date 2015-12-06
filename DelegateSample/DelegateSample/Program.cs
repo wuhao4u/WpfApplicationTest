@@ -76,7 +76,7 @@ namespace DelegateSample
 			// 8. cash event demo
 			Console.WriteLine (new String('=', 20));
 			Person person = new Person();
-			person.cashEvent += OnCashEvent;
+			person.cashEvent += OnCashEventHappened;
 			person.cashEvent += () => Console.WriteLine ("let's rob him.");;
 
 			person.AddCash (50);
@@ -85,7 +85,7 @@ namespace DelegateSample
 			Console.Read();
 		}
 
-		static void OnCashEvent(){
+		static void OnCashEventHappened(){
 			Console.WriteLine ("this guy has 100 dollar!");
 		}
 	}
