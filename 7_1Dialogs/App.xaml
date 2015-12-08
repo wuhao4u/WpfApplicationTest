@@ -1,7 +1,7 @@
 ﻿<Application x:Class="_7_1Dialogs.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="OpenFileDialog.xaml">
+             StartupUri="SaveFileDialogSample.xaml">
     <Application.Resources>
          
     </Application.Resources>
