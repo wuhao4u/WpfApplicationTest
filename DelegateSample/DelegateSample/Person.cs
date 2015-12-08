@@ -15,7 +15,7 @@ namespace DelegateSample
 				cash = value;
 				if (cash >= 100 && cashEvent != null)
 				{
-					cashEvent ();
+					cashEvent();
 				}
 			}
 		}
