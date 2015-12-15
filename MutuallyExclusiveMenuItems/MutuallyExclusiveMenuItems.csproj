@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C3F8E54F-6F9C-4100-87FC-C6DBD9AE139D}</ProjectGuid>
+    <ProjectGuid>{0FFA8B14-3A0A-4212-9263-E30BA231B337}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_7_1Dialogs</RootNamespace>
-    <AssemblyName>7_1Dialogs</AssemblyName>
+    <RootNamespace>MutuallyExclusiveMenuItems</RootNamespace>
+    <AssemblyName>MutuallyExclusiveMenuItems</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -53,16 +53,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="InputDialogSample.xaml.cs">
-      <DependentUpon>InputDialogSample.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SaveFileDialogSample.xaml.cs">
-      <DependentUpon>SaveFileDialogSample.xaml</DependentUpon>
-    </Compile>
-    <Page Include="InputDialogSample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -75,19 +65,9 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="OpenFileDialog.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SaveFileDialogSample.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OpenFileDialog.xaml.cs">
-      <DependentUpon>OpenFileDialog.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="MenuItemExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

@@ -1,0 +1,15 @@
+﻿<Window x:Class="MutuallyExclusiveMenuItems.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:MutuallyExclusiveMenuItems"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Menu>
+            <MenuItem x:Name="MenuItem_Root" Header="Root">
+                <MenuItem x:Name="MenuItem_Item1" local:MenuItemExtensions.GroupName="someGroup" IsCheckable="True" Header="item1" />
+                <MenuItem x:Name="MenuItem_Item2" local:MenuItemExtensions.GroupName="someGroup" IsCheckable="True" Header="item2"/>
+                <MenuItem x:Name="MenuItem_Item3" local:MenuItemExtensions.GroupName="someGroup" IsCheckable="True" Header="item3"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>
