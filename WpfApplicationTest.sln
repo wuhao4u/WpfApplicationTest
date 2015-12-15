@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutuallyExclusiveMenuItems"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventSample", "EventSample\EventSample.csproj", "{A0E98ED5-E3E4-46C0-A6BE-4D90FC063091}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_1 CommonInterfaceControls", "CommonInterfaceControls\8_1 CommonInterfaceControls.csproj", "{F05AC1B6-55D3-4F49-BE51-7912CABEFA8F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8_1 CommonInterfaceControls", "8_CommonInterfaceControls\8_1 CommonInterfaceControls.csproj", "{F05AC1B6-55D3-4F49-BE51-7912CABEFA8F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
