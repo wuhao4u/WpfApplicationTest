@@ -73,7 +73,6 @@ namespace _17_Miscellaneous
                 else
                     (sender as BackgroundWorker).ReportProgress(progressPercentage);
                 System.Threading.Thread.Sleep(1);
-
             }
             e.Result = result;
         }

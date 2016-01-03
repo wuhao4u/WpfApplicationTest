@@ -12,24 +12,26 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace _5_1DataBinding1
+namespace _6_1Commands
 {
     /// <summary>
-    /// UpdateSourceTrigger.xaml 的交互逻辑
+    /// Interaction logic for UsingCommandsSample.xaml
     /// </summary>
-    public partial class UpdateSourceTrigger : Window
+    public partial class UsingCommandsSample : Window
     {
-        public UpdateSourceTrigger()
+        public UsingCommandsSample()
         {
             InitializeComponent();
-            this.DataContext = this;
         }
 
-        private void btnUpdateSource_Click(object sender, RoutedEventArgs e)
+        private void NewCommand_Executed(object sender, ExecutedRoutedEventArgs e)
         {
-            // Explicit binding setting
-            BindingExpression binding = txtWindowTitle.GetBindingExpression(TextBox.TextProperty);
-            binding.UpdateSource();
+            MessageBox.Show("‘新建’命令触发");
+        }
+
+        private void NewCommand_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = true;
         }
     }
 }
