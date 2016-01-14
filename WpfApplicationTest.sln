@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyPropertySample", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_MiscControls", "10_MiscControls\10_MiscControls.csproj", "{A5024CB6-94C7-487F-B3DC-4A0FD6F204E0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ListView", "13_ListView\13_ListView.csproj", "{B21E96A7-97E7-45E2-8979-038E48B9EEEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -141,6 +143,10 @@ Global
 		{A5024CB6-94C7-487F-B3DC-4A0FD6F204E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A5024CB6-94C7-487F-B3DC-4A0FD6F204E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A5024CB6-94C7-487F-B3DC-4A0FD6F204E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B21E96A7-97E7-45E2-8979-038E48B9EEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B21E96A7-97E7-45E2-8979-038E48B9EEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B21E96A7-97E7-45E2-8979-038E48B9EEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B21E96A7-97E7-45E2-8979-038E48B9EEEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
